@@ -67,7 +67,6 @@ def list_accounts():
     List all Accounts
     This endpoint will list all Accounts
     """
-    
     app.logger.info("Request to list Accounts")
     accounts = Account.all()
     account_list = [account.serialize() for account in accounts]
@@ -102,7 +101,6 @@ def update_accounts(account_id):
     Update an Account
     This endpoint will update an Account based on the posted data
     """
-    
     app.logger.info("Request to update an Account with id: %s", account_id)
     account = Account.find(account_id)
     if not account:
