@@ -49,7 +49,7 @@ source ~/venv/bin/activate
 
 ### Installing Python dependencies
 
-These dependencies are installed as part of the setup process but should you need to install them again, first make sure that the Python 3.9 virtual environment is activated and then use the `make install` command:
+These dependencies are installed as part of the setup process butt should you need to install them again, first make sure that the Python 3.9 virtual environment is activated and then use the `make install` command:
 
 ```bash
 make install
